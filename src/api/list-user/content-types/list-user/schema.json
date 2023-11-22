@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_users",
+  "info": {
+    "singularName": "list-user",
+    "pluralName": "list-users",
+    "displayName": "list_user"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
